@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos Sonhos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Cabeçalho Principal da Página--> <!--Lucas-->
+    <header class = "cabecalho">
+        <h1>Madrid | A Capital Espanhola</h1>
+        <p>Famosa por sua arquitetura encantadora, cultura rica, 
+            gastronomia deliciosa e belas atrações turísticas.</p>
+    </header>
+
+    <!--Menu de Navegação da Página--> <!--Lucas-->
+    <nav class ="menu">
+        <ul>
+            <li><a href="#pontos-turisticos">Pontos Turísticos</a></li>
+            <li><a href="#dicas">Dicas de Viagem</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+            <li><a href="#custos">Custos da Viagem</a></li>
+            <li><a href="#formulario">Planeje Sua Viagem</a></li>
+        </ul>
+    </nav>
+ 
+    <!--Principais Pontos Turísticos--> <!--Bruno-->
+    <section id = "pontos-turisticos">
+        <h2>Principais Pontos Turísticos</h2>
+        <ul>
+            <li>Santiago Bernabéu
+            <img src="imagens/santiago_bernabeu.jpg" alt="Santiago Bernabeu">
+            </li>
+
+            <li>Catedral de Almudena
+            <img src="imagens/catedral_almudena.webp" alt="Catedral de Almudena">
+            </li>
+
+            <li>Parque do Retiro
+            <img src="imagens/parque_retiro.webp" alt="Parque do Retiro">
+            </li>
+
+            <li>Wanda Metropolitano
+            <img src="imagens/wanda_metropolitano.webp" alt="Wanda Metropolitano">
+            </li>
+
+            <li>Palácio de Cristal
+            <img src="imagens/palacio.jpeg" alt="Palácio de Cristal">
+            </li>
+        </ul>
+    </section>
+
+    <!--Dicas Para Aproveitar Melhor a Viagem--> <!--Pedro-->
+    <section id="dicas">
+        <article>
+            <h3>Dicas Pra Sua Viagem</h3>
+            <ol>
+                <li>Use o Metrô</li>
+                <li>Aproveite a Cidade a Noite</li>
+                <li>Experimente a Culinária</li>
+                <li>Reserve Ingressos com Antecedência</li>
+            </ol>
+        </article>
+    </section>
+    
+    <!--Curiosidades Sobre Madrid--> <!--Pedro-->
+    <section id="curiosidades">
+        <h3>Curiosidades Sobre Madrid</h3>
+        <ul>
+            <li>Capital da Espanha: Madrid é a maior cidade e o centro político do país.</li>
+            <li>Museu do Prado: Abriga obras famosas de grandes artistas europeus.</li>
+            <li>Real Madrid: Um dos clubes de futebol mais famosos do mundo nasceu na cidade.</li>
+            <li>Parque do Retiro: É um dos principais parques de Madrid e possui o famoso Palácio de Cristal.</li>
+        </ul>
+    </section>
+
+    <!-- Tabela com os custos estimados da viagem --> <!--Kauan-->
+    <section id="custos">
+        <h3>Custo Estimado da Viagem</h3>
+        <table border="1">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Valor Estimado</th>
+                    </tr>  
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Passagem Aérea</td>
+                        <td>R$ 4500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Hospedagem</td>
+                        <td>R$ 5000,00 </td>
+                    </tr>
+                    <tr>
+                        <td>Alimentação</td>
+                        <td>R$ 2500,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total Estimado</td>
+                        <td>R$ 12000,00</td>
+                    </tr>
+                </tfoot>
+        </table>
+    </section>
+
+    <!--Links de Referências Sobre Madrid--> <!--Bruno-->
+    <div class = "Links">
+        <h3>Links de Referência</h3>
+        <a href= "https://www.esmadrid.com/pt" target="_blank">Site Oficial de Madrid</a>
+        <br>
+        <a href="https://www.museodelprado.es/en" target="_blank">Museu do Prado</a>
+    </div>
+
+    <!--Formulário Para Planejamento da Viagem--> <!--Andre-->
+    <section id="formulario">
+        <h3>Planeje Sua Viagem</h3>
+        <form>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome">
+
+            <br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+            <label for="tipo">Tipo de Viagem: </label>
+            <select id ="tipo" name="tipo">
+            <option value="Turismo">Turismo</option>
+            <option value="Trabalho">Trabalho</option>
+            <option value="Romântica">Romântica</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form> 
+    </section>
+
+    <!--Rodapé da Página--> <!--Andre-->
+    <footer>
+        <p>Viagem dos Sonhos - Madrid</p>
+    </footer>
+</body>
+</html>
